@@ -16,9 +16,14 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 {   
     $Nom=$_POST["nom"];
     $Nombre=$_POST["nombre"];
-    $q = "INSERT INTO birthday-guests (nom,nombre) VALUES ('$Nom','$Nombre')";
-    $connection -> query($q);
+    $q = "INSERT INTO `birthday-guests` (nom,nombre) VALUES ('$Nom','$Nombre')";
     
+    if ($connection -> query($q) == TRUE){
+        echo("no error");
+    }
+    else{
+        echo("error".$connection->error);
+    }
 }
 
 ?>

@@ -10,7 +10,7 @@
 
 <body>
     <h1 id="titre"> Anniversaire d'Adélie ! 🎂</h1>
-</br>
+    
     <div id="infoFete">
         <h3 id="date">📆 23 août à 20 heures </h3>
         <div id="theme1">
@@ -31,7 +31,7 @@
 descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes/">Salle des fêtes Le Mans</a>
         </div>
     </div>
-    <form action = "addMessage.php" method = "POST">
+    <form action = "register.php" method = "POST">
     <div id = "formulaire">
         <h3 id="titreFormulaire">📝 Formulaire d'inscrition :</h3>
         <div id = "Nom">
@@ -43,10 +43,16 @@ descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes/">Salle des fê
             <input id="nombre" name="nombre" placeholder="Nombre de personne"/>
         </div>
         <button type="submit" id="button">Envoyer</button>
+        <div id = "nbrInvites">
+            <h4>Nombre d'invités déjà inscrit: </h4>
+            <h4 id="php"><?php include "count_guests.php";?></h4> 
+        </div>
     </div>
     </form>
     <script src="script.js"></script>
-    <?php include "register.php";?> 
+    <br>
+    
+    
 </body>
 
 </html>
