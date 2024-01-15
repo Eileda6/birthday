@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+}
+
+#titre{
+    margin: auto;
+    width: fit-content;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid rgb(255, 166, 0);
+    width: 250px;
+    height: 100px;
+    background-color: rgb(255, 219, 172);
+    border-radius: 5%;
+    box-shadow: 1px rgb(110, 101, 74);
+}

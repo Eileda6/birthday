@@ -10,40 +10,14 @@
 
 <body>
 
-    <h1 id="titre"> Adélie BRUNEL 3A INFO</h1>
-    <div id="carrousel">
-    <button onclick="clickLeft()"> <- </button>
-    <img id="carrouselImage" src="images/figma.png">
-    <button onclick="clickRight()"> -> </button>
+    <h1 id="titre"> Anniversaire d'Adélie !</h1>
+    <h3 >23 août à 20 heures </h3>
+    <h3>Thème : années 2000</h3>
+    <div>
+        <h3>Lieu :<h3>
+        <a href="https://www.1001salles.com/mariage/30812-domaine-de-chapeau.aspx">Salle des fêtes Le Mans</a>
     </div>
-    <div id="div1">
-    <div id="box1">
-    <h3 >Qui suis-je ?</h3>
-    <p id="InfoPerso"> 
-        -20 ans
-        -étudiante en informatique à l'ENSIM</p>
-    </div>
-    <div id="box2">
-    <h3>Liste de mes projets :</h3>
-    <p> - projet 1
-        - projet 2
-        - projet 3
-    </p>
-    </div>
-        <div id="box3">
-            <h3>Liste des contacts :</h3>
-            <p> - contact 1 
-                - n° tel: 02 23 54 66 87
-                - contact 2
-                - n° tel: 02 23 54 66 87
-                - contact 3 
-                - n° tel: 02 23 54 66 87
-                - contact 4 
-                - n° tel: 02 23 54 66 87
-        </p>
-        </div>
-    </div>
-    <form action = "addMessage.php" method = "POST">
+    <!--<form action = "addMessage.php" method = "POST">
     <div id = "div2">
         <h4>Nom : </h4>
         <input id="nom" name="nom" placeholder="nom"/>
@@ -55,7 +29,7 @@
     </div>
     </form>
     <script src="script.js"></script>
-    <?php include "addMessage.php";?> 
+    <?php include "addMessage.php";?> -->
 </body>
 
 </html>
