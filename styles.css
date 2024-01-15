@@ -1,9 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color:rgb(250, 244, 236);
+    
     font-family:'Times New Roman', Times, serif;
-    background:rgb(250, 244, 236), url("image/fireworks.jpg");
+    background-color:rgb(250, 244, 236);
 }
 
 #titre{
