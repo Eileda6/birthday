@@ -46,7 +46,7 @@ descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes/">Salle des fê
     </div>
     </form>
     <script src="script.js"></script>
-    
+    <?php include "register.php";?> 
 </body>
 
 </html>
