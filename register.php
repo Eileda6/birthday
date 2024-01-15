@@ -14,10 +14,9 @@ else{
 
 if($_SERVER['REQUEST_METHOD']=="POST")
 {   
-    $nom=$_POST["nom"];
-    $mail=$_POST["mail"];
-    $message=$_POST["message"];
-    $q = "INSERT INTO Superheros (nom,mail,message) VALUES ('$nom','$mail','$message')";
+    $Nom=$_POST["nom"];
+    $Nombre=$_POST["nombre"];
+    $q = "INSERT INTO birthday-guests (nom,nombre) VALUES ('$Nom','$Nombre')";
     $connection -> query($q);
     
 }
