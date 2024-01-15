@@ -1,19 +1,63 @@
 body{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(250, 244, 236);
 }
 
 #titre{
     margin: auto;
     width: fit-content;
     margin-top: 50px;
+    margin-bottom: 50px;
+    color:rgb(39, 38, 36) ;
     text-align: center;
     border: 2px solid rgb(255, 166, 0);
     width: 250px;
     height: 100px;
     background-color: rgb(255, 219, 172);
     border-radius: 5%;
-    box-shadow: 1px rgb(110, 101, 74);
+    box-shadow: 2px 2px 2px rgb(110, 101, 74);
+}
+
+#infoFete{
+    width: 550px;
+    height: 400px;
+    color:rgb(39, 38, 36) ;
+    background-color: rgb(250, 228, 198);
+    border: 2px solid rgb(255, 209, 160);
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(78, 55, 55, 0.774);
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#lieu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+#theme{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+#date{
+    margin-left: 100px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: darksalmon;
+    border-bottom: 1px coral;
+    border-radius: 5%;
+}
+a{
+    margin-left: 15px;
+}
+
+p{
+    display: none;
 }
